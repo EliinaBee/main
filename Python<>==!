@@ -1,0 +1,441 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyP6YD1dlvkPCwAYKlauLfOW",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/EliinaBee/main/blob/main/Python%3C%3E%3D%3D!\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "rs2krZ7MO4h5",
+        "outputId": "0297aa36-3123-47e4-b581-e59de84d1d3a"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "True\n",
+            "False\n"
+          ]
+        }
+      ],
+      "source": [
+        "#equal\n",
+        "x = 5\n",
+        "y = 5\n",
+        "\n",
+        "print(x == y)\n",
+        "print('1' == 1)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#not equal\n",
+        "print(x != y)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "tMRACX2kQGTW",
+        "outputId": "35572865-7800-4645-f935-2c021c28745c"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "False\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#greater than (>)\n",
+        "print (x> 2)\n",
+        "print(x > y)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "itA6cUSgQdmg",
+        "outputId": "2554717a-a3ef-4da8-fd39-b392d709302d"
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "True\n",
+            "False\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#less than\n",
+        "print(x < 10)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "A66l4oVnQ0ds",
+        "outputId": "59bcd7f5-72ab-4e23-8ea2-7b411b05aa5f"
+      },
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "True\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#greater or equal\n",
+        "print(x >= 5)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "vXNpA1n7Q8bc",
+        "outputId": "ca4523b8-3b38-4837-fc4c-f1f2e17a0ece"
+      },
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "True\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#if else statements\n",
+        "x = 100\n",
+        "if x < 50:\n",
+        "  print('Less than 50')\n",
+        "else:\n",
+        "  print('More than 50')\n",
+        "print('Finish')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "kBuqPk5ESJ4V",
+        "outputId": "1204666e-92a4-461b-c8f0-2c2dfb229a99"
+      },
+      "execution_count": 15,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "More than 50\n",
+            "Finish\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = 20\n",
+        "if a > 10:\n",
+        "  print('a is above 10')\n",
+        "  print('This is still in the block')\n",
+        "print('This is outside the block')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "K7bbu4NIVTyS",
+        "outputId": "46056744-5f8d-4d89-8c7f-76ebbbf184ce"
+      },
+      "execution_count": 20,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "a is above 10\n",
+            "This is still in the block\n",
+            "This is outside the block\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "age = int(input('How old are You? '))\n",
+        "\n",
+        "\n",
+        "if age >= 18:\n",
+        "  print('You can vote')\n",
+        "else:\n",
+        "  print('Next time')\n",
+        "\n",
+        "print('Thank you for participating')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "TjVKwvrhVzkF",
+        "outputId": "21904c99-12da-49aa-a687-d549045d9394"
+      },
+      "execution_count": 21,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "How old are You? 28\n",
+            "You can vote\n",
+            "Thank you for participating\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "number = int(input('Enter number! '))\n",
+        "\n",
+        "#check if the number is even or odd\n",
+        "if number % 2 == 0:\n",
+        "  print(f'The number {number} is even')\n",
+        "\n",
+        "else:\n",
+        "  print(f'The number i{number} is odd')\n",
+        ""
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "rjaRCqafWw5_",
+        "outputId": "8a3a8d58-ecd9-46af-d8f4-885ecf420413"
+      },
+      "execution_count": 22,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter number! 10\n",
+            "The number 10 is even\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#payment approval\n",
+        "#if the transaction can be done based on accont balance\n",
+        "\n",
+        "account_balance = float(input('Enter Your accont balance: '))\n",
+        "transaction_amount = float(input('Enter the transaction amount: '))\n",
+        "\n",
+        "if account_balance >= transaction_amount:\n",
+        "  print('Payment approved')\n",
+        "\n",
+        "else:\n",
+        "  print('No money!')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "r6kglPD4ZSIl",
+        "outputId": "bb767745-ae51-4f46-a46a-d089ab1dfd73"
+      },
+      "execution_count": 25,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter Your accont balance: 200\n",
+            "Enter the transaction amount: 3000\n",
+            "No money!\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#access management system\n",
+        "#username\n",
+        "#password\n",
+        "\n",
+        "STORED_USERNAME = 'user123'\n",
+        "STORED_PASSWORD = 'pass123'\n",
+        "\n",
+        "username = input('Username: ')\n",
+        "password = input('Password: ')\n",
+        "if (STORED_USERNAME == username and STORED_PASSWORD == password):\n",
+        "\n",
+        "  print('Access successful')\n",
+        "\n",
+        "else:\n",
+        "  print('Access denied!')\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "hLBtIdRTeWq1",
+        "outputId": "728d6767-af13-4be4-a8c4-7a817f5e2a11"
+      },
+      "execution_count": 27,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Username: user123\n",
+            "Password: pass123\n",
+            "Access successful\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#multiway decisions\n",
+        "\n",
+        "x = 10\n",
+        "if x < 5:\n",
+        "  print('small')\n",
+        "elif x < 15:\n",
+        "  print('medium')\n",
+        "\n",
+        "else:\n",
+        "  print('Large')\n",
+        "\n",
+        "print('All done')\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "VhBRVVKkhAgu",
+        "outputId": "c988a300-9568-4523-b4d9-8eb6177e1512"
+      },
+      "execution_count": 28,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "medium\n",
+            "All done\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#grading in scale 100, convert to ABCD\n",
+        "\n",
+        "try:\n",
+        "score = int(input('Enter Your score: '))\n",
+        "\n",
+        "if score >= 90:\n",
+        "  print('Your grade is A')\n",
+        "elif score >= 80:\n",
+        "  print('Your grade is B')\n",
+        "elif score >= 70:\n",
+        "  print('Your grade ir C')\n",
+        "elif score >= 60:\n",
+        "  print('Your grade is D')\n",
+        "elif score >= 50 and score <60 or score == 40:\n",
+        "  print('Between 50 and 60 or 40')\n",
+        "\n",
+        "else:\n",
+        "  print('You failed!')\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "tivAu_eniB5A",
+        "outputId": "84687d99-54f5-43cf-c54e-9f77e20ed873"
+      },
+      "execution_count": 31,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter Your score: 55\n",
+            "Between 50 and 60 or 40\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "gUuf38YbovWS"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
